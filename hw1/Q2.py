@@ -19,9 +19,9 @@ img = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
 ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
 
 # Save output img
-cv2.imwrite('output/Q2_binary_threshold.png', img)
+cv2.imwrite('output/Q2_binary_threshold.png', thresh1)
 
-histr = cv2.calcHist([img], [0], None, [256], [0, 256])
+histr = cv2.calcHist([thresh1], [0], None, [256], [0, 256])
 
 # show the plotting graph of an image
 plt.plot(histr)
@@ -32,16 +32,17 @@ plt.show()
 # Quantify number of black pixels
 
 # get all non black Pixels
-cntNotBlack = cv2.countNonZero(img)
+cntNotBlack = cv2.countNonZero(thresh1)
 
 # get pixel count of image
-height, width = img.shape
+height, width = thresh1.shape
 cntPixels = height*width
 
 # compute all black pixels
 cntBlack = cntPixels - cntNotBlack
 
 print("Total Number of Pixels: ", cntPixels)
+print("Total Number of Non-Black Pixels: ", cntNotBlack)
 print("Total Number of Black Pixels: ", cntBlack)
 
 
