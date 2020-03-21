@@ -2,7 +2,7 @@ from laspy import file
 import numpy as np
 from PIL import Image
 
-source = "17258975.las"
+source = "input/17258975.las"
 las = file.File(source, mode="r")  # reading of las file
 mmmin = las.header.min  # return [longmin,latmin,zmin]
 mmmax = las.header.max  # return [longmax,latmax,zmax]
@@ -34,4 +34,5 @@ print("converting to image")
 factor = 255 / max(temp2.flatten())
 img = temp2*factor
 im = Image.fromarray(img)
-im.show()
+im = im.convert("L")
+im.save('output/Q4_raster.png')

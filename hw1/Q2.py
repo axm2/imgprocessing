@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from collections import OrderedDict
 from collections import Counter
 
-img1 = cv2.imread('uniform_scene1.jpg')
-img2 = cv2.imread('uniform_scene2.jpg')
+img1 = cv2.imread('input/uniform_scene1.jpg')
+img2 = cv2.imread('input/uniform_scene2.jpg')
 
 img3 = img1 - img2
 
@@ -21,7 +21,6 @@ histr = cv2.calcHist([img], [0], None, [256], [0, 256])
 
 # show the plotting graph of an image
 plt.plot(histr)
-plt.show()
+plt.savefig('output/Q2_histogram.png')
 
-cv2.imshow('Binary Threshold', thresh1)
-cv2.waitKey(0)
+cv2.imwrite('output/Q2_binary_threshold.png',thresh1)
