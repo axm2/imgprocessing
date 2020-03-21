@@ -13,7 +13,7 @@
 ![alt text](output/Q2_histogram.png)
 
 * The number of pixels that belong to the object of interest was obtained by getting the total pixel count of the image (12192768 pixels) and subtracting it by the total number of non-black pixels (9054690 pixels). Thus, the number of pixels that belong to the object of interest came out to be 3138078 pixels.
-* The histogram primarily consists of black and/or white values, with some other color values in between. The first image of the uniform background without an object mainly consists of white, whereas the second image with the object contains mainly black.
+* The histogram primarily consists of black and/or white values. The first image of the uniform background without an object mainly consists of white, whereas the second image with the object contains mainly black.
 
 
 
