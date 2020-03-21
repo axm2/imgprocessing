@@ -3,9 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 from collections import Counter
+from PIL import Image
 
-img1 = cv2.imread('input/uniform_scene1.jpg')
-img2 = cv2.imread('input/uniform_scene2.jpg')
+img1 = cv2.imread('uniform_scene1.jpg')
+img2 = cv2.imread('uniform_scene2.jpg')
 
 img3 = img1 - img2
 
@@ -17,10 +18,30 @@ img = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
 # applying thresholding
 ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
 
+# Save output img
+cv2.imwrite('binary_image_output.jpg', img)
+
 histr = cv2.calcHist([img], [0], None, [256], [0, 256])
 
 # show the plotting graph of an image
 plt.plot(histr)
-plt.savefig('output/Q2_histogram.png')
+plt.show()
 
-cv2.imwrite('output/Q2_binary_threshold.png',thresh1)
+# Quantify number of black pixels
+
+# get all non black Pixels
+cntNotBlack = cv2.countNonZero(img)
+
+# get pixel count of image
+height, width = img.shape
+cntPixels = height*width
+
+# compute all black pixels
+cntBlack = cntPixels - cntNotBlack
+
+print("Total Number of Pixels: ", cntPixels)
+print("Total Number of Black Pixels: ", cntBlack)
+
+
+cv2.imshow('Binary Threshold', thresh1)
+cv2.waitKey(0)
