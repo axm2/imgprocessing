@@ -3,7 +3,7 @@
 
 ### QUESTION 1
 
-![alt text](output/Q1_histogram.png)
+![alt text](output/Q1_histogram_lg.png)
 
 * For the overexposed image, most pixel intensity values are high (near 255) and for the overexposed images, and for the underexposed image, most intensity values are low (near 0)
 
