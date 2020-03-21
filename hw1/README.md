@@ -1,5 +1,5 @@
 # Homework 1 CS 381/780 Image Processing
-## Omar Mirza, Adam Binder, PSINGH
+## Omar Mirza, Adam Binder, Yougeeta Singh
 
 ### QUESTION 1
 
