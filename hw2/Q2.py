@@ -27,3 +27,13 @@ cv2.destroyAllWindows()  # destroys the window showing image
 cv2.imshow("underexposed original vs equalized", res_u)
 cv2.waitKey(0)  # waits until a key is pressed
 cv2.destroyAllWindows()  # destroys the window showing image
+cv2.imwrite('hw2/output/Q2_equalized_overexposed.png', res_o)
+cv2.imwrite('hw2/output/Q2_equalized_underexposed.png', res_u)
+plt.hist(equalized_u.ravel(),256,[0,256])
+plt.title('Equalized underexposed')
+plt.savefig('hw2/output/Q2_underexposed_equalized_hist.png')
+plt.close()
+plt.hist(equalized_o.ravel(),256,[0,256])
+plt.title('Equalized overexposed')
+plt.savefig('hw2/output/Q2_overexposed_equalized_hist.png')
+plt.close()
