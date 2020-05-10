@@ -54,19 +54,25 @@ TODO
 ### QUESTION 5
 
 Gaussian Kernel
+<br>
 <img src="output/Q5_GaussianBlur.jpg" width="300">
 
 Box Kernel
+<br>
 <img src="output/Q5_BoxKernels.jpg" width="300">
 
 Robert Kernel
+<br>
 <img src="output/Q5_RobertKernel.jpg" width="300">
 
 Sobel Kernel
+<br>
 <img src="output/Q5_SobelKernel.jpg" width="300">
 
 Second-order Derivative
+<br>
 <img src="output/Q5_SecondDerivative.jpg" width="300">
 
 Unsharp and Highboost Filtering
+<br>
 <img src="output/Q5_Sharpened.jpg" width="300">
