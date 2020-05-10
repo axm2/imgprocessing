@@ -42,3 +42,31 @@ histograms
 <br>
 <img src="output/Q1_original_overexposed_hist.png" width="300">
 <img src="output/Q2_overexposed_equalized_hist.png" width="300">
+
+### QUESTION 3
+
+TODO
+
+### QUESTION 4
+
+TODO
+
+### QUESTION 5
+
+Gaussian Kernel
+<img src="input/Q5_GaussianBlur.jpg" width="300">
+
+Box Kernel
+<img src="input/Q5_BoxKernels.jpg" width="300">
+
+Robert Kernel
+<img src="input/Q5_RobertKernel.jpg" width="300">
+
+Sobel Kernel
+<img src="input/Q5_SobelKernel.jpg" width="300">
+
+Second-order Derivative
+<img src="input/Q5_SecondDerivative.jpg" width="300">
+
+Unsharp and Highboost Filtering
+<img src="input/Q5_Sharpened.jpg" width="300">
