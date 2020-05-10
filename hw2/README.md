@@ -63,7 +63,7 @@ Reference Image Input and Histogram
 New Image Output and Histogram
 <br>
 <img src="output/Q4_Result.jpg" width="300"> 
-<img src="Q4_output_img_hist.png" width="300">
+<img src="output/Q4_output_img_hist.png" width="300">
 
 ### QUESTION 5
 
