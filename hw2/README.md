@@ -45,7 +45,16 @@ histograms
 
 ### QUESTION 3
 
-TODO
+Underexposed Image Equalized
+
+<img src = "output/Q3_underexposed.jpg" width="600">
+
+Overexposed Image Equalized
+
+<img src = "output/Q3_underexposed.jpg" width="600">
+
+
+
 
 ### QUESTION 4
 
