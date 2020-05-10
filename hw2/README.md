@@ -49,7 +49,21 @@ TODO
 
 ### QUESTION 4
 
-TODO
+Original Image Input and Histogram
+<br>
+<img src="input/overexposed.jpg" width="300"> 
+<img src="output/Q4_org_img_hist.png" width="300">
+
+
+Reference Image Input and Histogram
+<br>
+<img src="input/underexposed.jpg" width="300"> 
+<img src="output/Q4_ref_img_hist.png" width="300">
+
+New Image Output and Histogram
+<br>
+<img src="output/Q4_Result.jpg" width="300"> 
+<img src="Q4_output_img_hist.png" width="300">
 
 ### QUESTION 5
 
