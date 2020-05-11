@@ -45,13 +45,19 @@ histograms
 
 ### QUESTION 3
 
+Underexposed Image Histogram
+<img src = "output/Q3_underexposedhist.png" width="300">
+
+Overexposed Image Histogram
+<img src = "output/Q3_overexposedhist.png" width="300">
+
 Underexposed Image Equalized
 
-<img src = "output/Q3_underexposed.jpg" width="600">
+<img src = "output/Q3_underexposed.jpg" width="300">
 
 Overexposed Image Equalized
 
-<img src = "output/Q3_underexposed.jpg" width="600">
+<img src = "output/Q3_underexposed.jpg" width="300">
 
 
 
