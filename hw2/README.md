@@ -51,7 +51,7 @@ Underexposed Image Histogram
 
 Overexposed Image Histogram
 
-<img src = "output/Q3_overexposedhist.PNG" width="300">
+<img src = "output/Q3.overexposedhist.PNG" width="300">
 
 Underexposed Image Equalized
 
