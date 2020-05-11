@@ -46,10 +46,12 @@ histograms
 ### QUESTION 3
 
 Underexposed Image Histogram
+
 <img src = "output/Q3_underexposedhist.png" width="300">
 
 Overexposed Image Histogram
-<img src = "output/Q3_overexposedhist.png" width="300">
+
+<img src = "output/Q3_overexposedhist.PNG" width="300">
 
 Underexposed Image Equalized
 
